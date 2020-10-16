@@ -17,7 +17,17 @@
     <div class="container" id="myContainer">
         <div class="row" id="myRow">
             <div class="col-md-4" id="myCol1">
-                <h5 id="col1title">Add Recipe</h5>
+                <h5 class="m-3" id="col1title">Add Recipe</h5>
+                <form>
+                    <div class="form-group">
+                        <label for="recipe-name">Name</label>
+                        <input id="recipe-name" class="form-control" type="text" placeholder="recipe name">
+                        <label for="category">Category</label>
+                        <select name="category" id="category"></select>
+                        <label for="image-url">Image</label>
+                        <input id="image-url" class="form-control" type="url" placeholder="image url here">
+                    </div>
+                </form>
             </div>
             <div class="col-md-8" id="myCol2">
                 Column 2
