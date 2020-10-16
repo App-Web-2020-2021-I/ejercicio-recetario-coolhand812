@@ -26,9 +26,9 @@
                     <div class="form-group">
                         <label for="category">Category</label>
                         <select class="form-control" name="category" id="category">
-                            <option value="breakfast">Breakfast</option>
-                            <option value="lunch">Lunch</option>
-                            <option value="dinner">Dinner</option>
+                            <option value="appetizer">Appetizer</option>
+                            <option value="main_course">Main Course</option>
+                            <option value="dessert">Dessert</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -41,10 +41,28 @@
                                 <label for="ingredients">Ingredients</label>
                                 <input id="ingredients" class="form-control" type="text" name="ingredients">
                             </div>
-                            <div class="col-md-1">
-                                <button class="btn"><i class="far fa-plus-square"></i></button>
+                            <div class="col-md-2">
+                                <button class="btn p-0"><i class="far fa-plus-square fa-2x"></i></button>
+                            </div>
+                            <div class="myCutoff4ingredients">
+                                <ul class="list-group" id="ingredients-list">
+                                    <li class="list-group-item">
+                                        <div class="ingredient-row">
+                                            <div class="col-md-1">
+                                                <button class="btn btn-danger">&times;</button>
+                                            </div>
+                                            <div class="col-md-9">
+                                                
+                                                ingredient
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
+                    </div>
+                    <div class="form-group">
+
                     </div>
                 </form>
             </div>
