@@ -17,3 +17,6 @@
     border-bottom: 2px rgb(110, 109, 109) solid;
 }
 
+#appetizer, #main-course{
+    border-right: solid 2px rgb(110, 109, 109);
+}
