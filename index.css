@@ -13,10 +13,22 @@
     margin-right: 0;
 }
 
+#see-more1, #see-more2, #see-more3
+#see-more4, #see-more5, #see-more6{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 #col2title{
     border-bottom: 2px rgb(110, 109, 109) solid;
 }
 
 #appetizer, #main-course{
     border-right: solid 2px rgb(110, 109, 109);
+}
+
+#card-type1, #card-type2, #card-type3{
+    flex-direction: column;
 }
