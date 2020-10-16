@@ -44,25 +44,28 @@
                             <div class="col-md-2">
                                 <button class="btn p-0"><i class="far fa-plus-square fa-2x"></i></button>
                             </div>
-                            <div class="myCutoff4ingredients">
-                                <ul class="list-group" id="ingredients-list">
-                                    <li class="list-group-item">
-                                        <div class="ingredient-row">
-                                            <div class="col-md-1">
-                                                <button class="btn btn-danger">&times;</button>
-                                            </div>
-                                            <div class="col-md-9">
-                                                
-                                                ingredient
-                                            </div>
+                        </div>
+                        <div class="myCutoff4ingredients">
+                            <ul class="list-group" id="ingredients-list">
+                                <li class="list-group-item">
+                                    <div class="form-row align-items-end">
+                                        <div class="col-md-2 d-flex">
+                                            <button class="btn btn-danger form-control align-self-center" id="delete-ingredient">&times;</button>
                                         </div>
-                                    </li>
-                                </ul>
-                            </div>
+                                        <div class="col-md-9">
+                                            ingredient
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="form-group">
-
+                        <label for="preparation">Preparation</label>
+                        <textarea class="form-control" name="preparation" id="preparation"></textarea>
+                    </div>
+                    <div class="col-12 text-center" id="save-button">
+                        <button class="btn btn-outline-primary">Save</button>
                     </div>
                 </form>
             </div>
