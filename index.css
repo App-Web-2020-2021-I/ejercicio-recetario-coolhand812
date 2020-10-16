@@ -12,3 +12,7 @@
     margin-left: 0;
     margin-right: 0;
 }
+
+#col2title{
+    border-bottom: 2px rgb(110, 109, 109) solid;
+}
